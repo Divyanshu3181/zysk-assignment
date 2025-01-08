@@ -14,9 +14,9 @@ export default function Navbar() {
             </Link>
             <div className="hidden md:flex items-center space-x-6">
               <Link to="/" className="text-gray-900">Home</Link>
-              <Link to="/products" className="text-gray-600 hover:text-gray-900">Products</Link>
-              <Link to="/resources" className="text-gray-600 hover:text-gray-900">Resources</Link>
-              <Link to="/pricing" className="text-gray-600 hover:text-gray-900">Pricing</Link>
+              <Link to="/" className="text-gray-600 hover:text-gray-900">Products</Link>
+              <Link to="/" className="text-gray-600 hover:text-gray-900">Resources</Link>
+              <Link to="/" className="text-gray-600 hover:text-gray-900">Pricing</Link>
             </div>
             <button onClick={() => setIsOpen(!isOpen)} className="md:hidden font:bold">
              Menu
